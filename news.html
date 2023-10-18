@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>News App</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <style>
+      .new-content {
+        display: flex;
+        border: 1px solid gray;
+        margin-bottom: 10px;
+        height: 300px;
+      }
+
+      .img-banner {
+        flex: 30%;
+      }
+
+      .img-banner img {
+        width: 400px;
+        height: 298px;
+        /* object-fit: cover; */
+      }
+      .content {
+        flex: 60%;
+        padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper d-flex align-items-stretch">
+      <!-- phan trang nhu dia chi sau
+      https://www1.247phim.cc/country/my/page/5/ -->
+      <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+        <h2 class="mb-4">Demo phan trang với JS</h2>
+        <nav id="pagi"></nav>
+
+        <!-- News list -->
+        <div id="news-container"></div>
+      </div>
+    </div>
+
+    <script src="./news.js"></script>
+  </body>
+</html>
